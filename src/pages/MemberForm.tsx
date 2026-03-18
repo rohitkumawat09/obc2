@@ -1406,7 +1406,7 @@ if (form.email.trim() && !validationRules.email.regex.test(form.email)) {
     try {
      
       const { data } = await axios.post(
-        "/api/membership/create-order",
+        "https://dashboard-desdign-1th5-dm0bslvcw-rohit-f569833c.vercel.app//api/membership/create-order",
       );
   
       const options = {
